@@ -1,0 +1,44 @@
+# --------------------
+# Python
+# --------------------
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# --------------------
+# Virtual Environments
+# --------------------
+venv/
+venv_unified/
+.env/
+venv_paddleocr
+# --------------------
+# Data / Output (DO NOT PUSH)
+# --------------------
+data/
+output/
+logs/
+temp/
+cache/
+results/
+data2/
+zoho_downloads/
+generated_letters/
+dist/
+build/
+# --------------------
+# Documents
+# --------------------
+*.pdf
+*.xlsx
+*.csv
+*.txt
+
+# --------------------
+# OS / IDE
+# --------------------
+.DS_Store
+.vscode/
+.idea/
+
