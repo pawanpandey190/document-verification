@@ -11,7 +11,16 @@ __pycache__/
 # --------------------
 venv/
 venv_unified/
-.env/
+
+#secrets
+.env
+
+# Outputs
+Test_codes/output*.txt
+
+# Notebooks
+*.ipynb
+
 venv_paddleocr
 # --------------------
 # Data / Output (DO NOT PUSH)
