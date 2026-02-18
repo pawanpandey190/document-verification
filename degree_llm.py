@@ -73,16 +73,16 @@ Extract structured academic information from the transcript text below.
 
 1. name_of_student
    - Full name of the student.
-   - Remove honorifics and titles (Mr, Ms, Mrs, Dr, etc.).
+   - Remove  and titles (Mr, Ms, Mrs, Dr, etc.).
    - Preserve original spelling from the document.
 
 2. country
    - Country where the institution is located.
    - Determine ONLY using explicit geographic evidence.
-   - If insufficient or conflicting evidence exists, return null.
+  
 
 3. country_evidence
-   - Short explanation of the geographic signals used.
+   - Short explanation of the geographic signals used and that is happend.
    - Examples:
      - "Phone code +91 and INR currency"
      - "Mention of Lagos State and .edu.ng domain"
