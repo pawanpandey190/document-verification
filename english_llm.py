@@ -20,7 +20,7 @@ ENGLISH_PROMPT = ChatPromptTemplate.from_messages([
     ("system", "Extract English proficiency test data. Return ONLY valid JSON."),
     ("human", """
 Extract the following fields from the text:
-- test_type: The name of the test (e.g., Duolingo, IELTS, TOEFL, PTE)
+- 
 - overall_score: The total/overall score as a float
 - date_of_test: Date in YYYY-MM-DD format
 
