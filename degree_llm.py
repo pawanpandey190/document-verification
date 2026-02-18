@@ -44,7 +44,7 @@ CRITICAL BEHAVIOR RULES:
 - Do NOT guess, hallucinate, or infer unsupported data.
 - If a field cannot be determined with high confidence, return null.
 - All numeric values must be real numbers (not strings).
-- Your output must be auditable and conservative.
+
 """
     ),
     (
